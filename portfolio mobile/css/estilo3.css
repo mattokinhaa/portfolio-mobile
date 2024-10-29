@@ -1,0 +1,247 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #345168;
+}
+header{
+    padding: 40px;
+    background-color: #456078;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.sub-header{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.bottom{
+    text-align:center;
+    margin-left: 850px;
+    margin-top: -30px;
+    font-family: "SUSE", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.bottom a{
+    background-color:#6e9baa;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.bottom a:hover{
+    background-color:silver;
+    color:#242424;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 93%;
+    margin-left: 25px;
+
+}
+
+.card {
+    background-color:#617a82;
+    padding: 20px;
+    margin-top: 20px;
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+}
+
+.row::after {   
+    content: ""; 
+    display: table;
+    clear: both; 
+} 
+
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.galeria{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    cursor: pointer;
+    background-color: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.galeria>div{
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    background-color: none;
+}
+
+.galeria>div:hover{
+    flex: 5;
+    border-radius: 20px;
+}
+
+.div-intro{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    background-color: transparent;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .img-book{
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+
+
+  .desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.desc-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.desc p{
+    font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    height: 90vh;
+}
+
+.card h2{
+    margin-left: 2%;
+}
+
+.true{
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+  
+  .truee{
+    width: 260px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+
+  .false{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+  
+  .falsee{
+    width: 355px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+  .prod{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
+  
+  .prod1{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 65%;
+  }
